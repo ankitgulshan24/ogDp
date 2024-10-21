@@ -1,26 +1,26 @@
-Genos recently installed the game Zuma on his phone. In Zuma there exists a line of n gemstones, the i-th of which has color ci. The goal of the
- game is to destroy all the gemstones in the line as quickly as possible.
+// Genos recently installed the game Zuma on his phone. In Zuma there exists a line of n gemstones, the i-th of which has color ci. The goal of the
+//  game is to destroy all the gemstones in the line as quickly as possible.
 
-In one second, Genos is able to choose exactly one continuous substring of colored gemstones that is a palindrome and remove it from the line. 
-After the substring is removed, the remaining gemstones shift to form a solid line again. What is the minimum number of seconds needed to destroy 
-the entire line?
+// In one second, Genos is able to choose exactly one continuous substring of colored gemstones that is a palindrome and remove it from the line. 
+// After the substring is removed, the remaining gemstones shift to form a solid line again. What is the minimum number of seconds needed to destroy 
+// the entire line?
 
 
-InputCopy
-3
-1 2 1
-OutputCopy
-1
-InputCopy
-3
-1 2 3
-OutputCopy
-3
-InputCopy
-7
-1 4 4 2 3 2 1
-OutputCopy
-2
+// InputCopy
+// 3
+// 1 2 1
+// OutputCopy
+// 1
+// InputCopy
+// 3
+// 1 2 3
+// OutputCopy
+// 3
+// InputCopy
+// 7
+// 1 4 4 2 3 2 1
+// OutputCopy
+// 2
 
 
 // 1 3 2 3 2 4 3 3 4 3 1
